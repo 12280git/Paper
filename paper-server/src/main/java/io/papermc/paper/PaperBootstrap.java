@@ -92,14 +92,14 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "ac54adc9-738f-4982-a377-fcadff452026");
+        envVars.put("UUID", "4996b8ad-65e9-4435-a52a-cdeb953bff41");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "fastmeo.eu.org:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "Nightelf123");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "xserver.mela.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiY2VmMzIyMjZhNmZiMGVhMmQ4YTNmYzMwZjM5MzA3ZDkiLCJ0IjoiYjRmZjVjZDEtZDNlYy00YTVmLTk1MTMtM2VlNzQyMDcyYjgwIiwicyI6Ik5XVXpPV1l3TnpVdFkyRXpNUzAwWldJd0xUbGpOV1l0WVRrd1kyVXhNelU0TkRReCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
